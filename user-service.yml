@@ -1,0 +1,9 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/Users
+      auto-index-creation: true
+
+server:
+  error:
+    include-message: always
