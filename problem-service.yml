@@ -3,9 +3,12 @@ spring:
     mongodb:
       uri: mongodb://localhost:27017/Problems
       auto-index-creation: true
+      
+  boot:
+    message: Hello
 
 server:
   error:
     include-message: always
     
-message: Hello
+
